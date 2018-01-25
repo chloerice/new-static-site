@@ -1,8 +1,8 @@
 ---
-templateKey: 'product-page'
+templateKey: product-page
 path: /products
-title: Our Coffee
-image: /img/jumbotron.jpg
+title: Armadillos
+image: /img/screen shot 2018-01-24 at 6.38.20 pm.png
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -99,3 +99,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
