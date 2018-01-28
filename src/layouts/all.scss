@@ -1,11 +1,13 @@
-// @import "~bulma/sass/utilities/initial-variables"
+$wbb-yellow: #F4CF64;
 
-// Config
-$kaldi-red: #FD461E;
-$kaldi-red-invert: #fff;
+$primary: $wbb-yellow;
 
-$primary: $kaldi-red;
-$primary-invert: $kaldi-red-invert;
+html, body {
+  margin: 0;
+  padding: 0;
+  background: none;
+  overflow: unset;
+}
 
 // Helper Classes
 .full-width-image-container {
@@ -21,9 +23,3 @@ $primary-invert: $kaldi-red-invert;
   justify-content: center;
   align-items: center;
 }
-
-.margin-top-0 {
-  margin-top: 0 !important
-}
-
-// @import "~bulma"
