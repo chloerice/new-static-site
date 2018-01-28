@@ -1,0 +1,20 @@
+@import "../../layouts/all";
+
+$brand-size-lg: 250px;
+$brand-size-sm: 150px;
+
+nav {
+  background: $primary;
+}
+
+.Navbar-brand {
+  width: $brand-size-sm;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+  .Navbar-brand {
+    width: $brand-size-lg;
+  }
+}
